@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>StructuralPatterns.Adapter</OriginalElement>
+  <nodes>
+    <node x="121.25" y="246.0">StructuralPatterns.Adapter.AdapterApp</node>
+    <node x="113.75" y="123.0">StructuralPatterns.Adapter.VectorAdapterFromRaster</node>
+    <node x="0.0" y="0.0">StructuralPatterns.Adapter.RasterGraphics</node>
+    <node x="223.0" y="0.0">StructuralPatterns.Adapter.VectorGraphicsInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StructuralPatterns.Adapter.VectorAdapterFromRaster" target="StructuralPatterns.Adapter.RasterGraphics">
+      <point x="-46.0" y="-36.5" />
+      <point x="159.75" y="98.0" />
+      <point x="101.5" y="98.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="StructuralPatterns.Adapter.VectorAdapterFromRaster" target="StructuralPatterns.Adapter.VectorGraphicsInterface">
+      <point x="46.0" y="-36.5" />
+      <point x="251.75" y="98.0" />
+      <point x="310.0" y="98.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="StructuralPatterns.Adapter.AdapterApp" target="StructuralPatterns.Adapter.VectorAdapterFromRaster">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="198.5" y="148.5" />
+  <SelectedNodes>
+    <node>StructuralPatterns.Adapter.AdapterApp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

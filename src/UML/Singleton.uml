@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CreationalPatterns.Singleton</OriginalElement>
+  <nodes>
+    <node x="24.0" y="0.0">CreationalPatterns.Singleton.Test</node>
+    <node x="0.0" y="101.0">CreationalPatterns.Singleton.SingletonApp</node>
+    <node x="0.0" y="197.0">CreationalPatterns.Singleton.Singleton</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CreationalPatterns.Singleton.SingletonApp" target="CreationalPatterns.Singleton.Test">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="105.5" y="169.0" />
+  <SelectedNodes>
+    <node>CreationalPatterns.Singleton.SingletonApp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

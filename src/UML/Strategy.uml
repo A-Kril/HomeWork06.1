@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BehavioralPatterns.Strategy</OriginalElement>
+  <nodes>
+    <node x="165.0" y="112.5">BehavioralPatterns.Strategy.BubbleSort</node>
+    <node x="247.5" y="0.0">BehavioralPatterns.Strategy.Sorting</node>
+    <node x="235.5" y="225.0">BehavioralPatterns.Strategy.StrategyApp</node>
+    <node x="330.0" y="112.5">BehavioralPatterns.Strategy.SelectionSort</node>
+    <node x="0.0" y="112.5">BehavioralPatterns.Strategy.InsertingSort</node>
+    <node x="495.0" y="101.0">BehavioralPatterns.Strategy.StrategyClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BehavioralPatterns.Strategy.StrategyApp" target="BehavioralPatterns.Strategy.BubbleSort">
+      <point x="-21.125" y="-25.5" />
+      <point x="298.875" y="195.0" />
+      <point x="237.5" y="195.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Strategy.StrategyClient" target="BehavioralPatterns.Strategy.Sorting">
+      <point x="0.0" y="-37.0" />
+      <point x="609.0" y="71.0" />
+      <point x="374.375" y="71.0" />
+      <point x="54.375" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Strategy.StrategyApp" target="BehavioralPatterns.Strategy.InsertingSort">
+      <point x="-63.375" y="-25.5" />
+      <point x="256.625" y="205.0" />
+      <point x="72.5" y="205.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Strategy.SelectionSort" target="BehavioralPatterns.Strategy.Sorting">
+      <point x="0.0" y="-25.5" />
+      <point x="402.5" y="81.0" />
+      <point x="338.125" y="81.0" />
+      <point x="18.125" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Strategy.StrategyApp" target="BehavioralPatterns.Strategy.SelectionSort">
+      <point x="21.125" y="-25.5" />
+      <point x="341.125" y="195.0" />
+      <point x="402.5" y="195.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Strategy.BubbleSort" target="BehavioralPatterns.Strategy.Sorting">
+      <point x="0.0" y="-25.5" />
+      <point x="237.5" y="81.0" />
+      <point x="301.875" y="81.0" />
+      <point x="-18.125" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Strategy.InsertingSort" target="BehavioralPatterns.Strategy.Sorting">
+      <point x="0.0" y="-25.5" />
+      <point x="72.5" y="71.0" />
+      <point x="265.625" y="71.0" />
+      <point x="-54.375" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Strategy.StrategyApp" target="BehavioralPatterns.Strategy.StrategyClient">
+      <point x="63.375" y="-25.5" />
+      <point x="383.375" y="205.0" />
+      <point x="609.0" y="205.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="361.5" y="138.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

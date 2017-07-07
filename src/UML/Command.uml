@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BehavioralPatterns.Command</OriginalElement>
+  <nodes>
+    <node x="491.0625" y="209.0">BehavioralPatterns.Command.ResetCommand</node>
+    <node x="15.0625" y="209.0">BehavioralPatterns.Command.StopCommand</node>
+    <node x="729.0625" y="165.0">BehavioralPatterns.Command.User</node>
+    <node x="462.921875" y="22.0">BehavioralPatterns.Command.Command</node>
+    <node x="253.0625" y="209.0">BehavioralPatterns.Command.StartCommand</node>
+    <node x="277.5625" y="400.0">BehavioralPatterns.Command.CommandApp</node>
+    <node x="104.421875" y="0.0">BehavioralPatterns.Command.Computer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BehavioralPatterns.Command.CommandApp" target="BehavioralPatterns.Command.ResetCommand">
+      <point x="33.8" y="-25.5" />
+      <point x="395.8625" y="370.0" />
+      <point x="600.0625" y="370.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.User" target="BehavioralPatterns.Command.Command">
+      <point x="0.0" y="-92.5" />
+      <point x="865.0625" y="135.0" />
+      <point x="588.046875" y="135.0" />
+      <point x="53.625" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.StopCommand" target="BehavioralPatterns.Command.Computer">
+      <point x="-54.5" y="-48.5" />
+      <point x="69.5625" y="145.0" />
+      <point x="166.671875" y="145.0" />
+      <point x="-20.75" y="47.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.ResetCommand" target="BehavioralPatterns.Command.Command">
+      <point x="54.5" y="-48.5" />
+      <point x="654.5625" y="145.0" />
+      <point x="552.296875" y="145.0" />
+      <point x="17.875" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.CommandApp" target="BehavioralPatterns.Command.Computer">
+      <point x="-67.6" y="-25.5" />
+      <point x="294.4625" y="380.0" />
+      <point x="0.0" y="380.0" />
+      <point x="0.0" y="135.0" />
+      <point x="125.171875" y="135.0" />
+      <point x="-62.25" y="47.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.CommandApp" target="BehavioralPatterns.Command.User">
+      <point x="67.6" y="-25.5" />
+      <point x="429.6625" y="380.0" />
+      <point x="865.0625" y="380.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.ResetCommand" target="BehavioralPatterns.Command.Computer">
+      <point x="-54.5" y="-48.5" />
+      <point x="545.5625" y="115.0" />
+      <point x="249.671875" y="115.0" />
+      <point x="62.25" y="47.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.StartCommand" target="BehavioralPatterns.Command.Computer">
+      <point x="-54.5" y="-48.5" />
+      <point x="307.5625" y="125.0" />
+      <point x="208.171875" y="125.0" />
+      <point x="20.75" y="47.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.StopCommand" target="BehavioralPatterns.Command.Command">
+      <point x="54.5" y="-48.5" />
+      <point x="178.5625" y="135.0" />
+      <point x="480.796875" y="135.0" />
+      <point x="-53.625" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.StartCommand" target="BehavioralPatterns.Command.Command">
+      <point x="54.5" y="-48.5" />
+      <point x="416.5625" y="145.0" />
+      <point x="516.546875" y="145.0" />
+      <point x="-17.875" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.CommandApp" target="BehavioralPatterns.Command.StartCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Command.CommandApp" target="BehavioralPatterns.Command.StopCommand">
+      <point x="-33.8" y="-25.5" />
+      <point x="328.2625" y="370.0" />
+      <point x="124.0625" y="370.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="501.0" y="225.5" />
+  <SelectedNodes>
+    <node>BehavioralPatterns.Command.Command</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

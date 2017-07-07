@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CreationalPatterns.Builder</OriginalElement>
+  <nodes>
+    <node x="219.0" y="503.5">CreationalPatterns.Builder.Mazda3</node>
+    <node x="259.5" y="0.0">CreationalPatterns.Builder.Transmission</node>
+    <node x="438.0" y="503.0">CreationalPatterns.Builder.Director</node>
+    <node x="212.0" y="123.0">CreationalPatterns.Builder.Car</node>
+    <node x="234.7142857142857" y="649.0">CreationalPatterns.Builder.BuilderApp</node>
+    <node x="0.0" y="503.5">CreationalPatterns.Builder.MitsubishiLancer</node>
+    <node x="215.5" y="291.0">CreationalPatterns.Builder.CarBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CreationalPatterns.Builder.CarBuilder" target="CreationalPatterns.Builder.Car">
+      <point x="51.5" y="-81.0" />
+      <point x="370.0" y="266.0" />
+      <point x="371.75" y="266.0" />
+      <point x="53.25" y="59.0" />
+    </edge>
+    <edge source="CreationalPatterns.Builder.Car" target="CreationalPatterns.Builder.Transmission">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="CreationalPatterns.Builder.MitsubishiLancer" target="CreationalPatterns.Builder.CarBuilder">
+      <point x="0.0" y="-47.5" />
+      <point x="99.5" y="478.0" />
+      <point x="249.83333333333331" y="478.0" />
+      <point x="-68.66666666666669" y="81.0" />
+    </edge>
+    <edge source="CreationalPatterns.Builder.BuilderApp" target="CreationalPatterns.Builder.Director">
+      <point x="42.25" y="-25.5" />
+      <point x="361.46428571428567" y="624.0" />
+      <point x="540.0" y="624.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="CreationalPatterns.Builder.Director" target="CreationalPatterns.Builder.CarBuilder">
+      <point x="0.0" y="-48.0" />
+      <point x="540.0" y="478.0" />
+      <point x="387.1666666666667" y="478.0" />
+      <point x="68.66666666666669" y="81.0" />
+    </edge>
+    <edge source="CreationalPatterns.Builder.BuilderApp" target="CreationalPatterns.Builder.MitsubishiLancer">
+      <point x="-42.25" y="-25.5" />
+      <point x="276.96428571428567" y="624.0" />
+      <point x="99.5" y="624.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="CreationalPatterns.Builder.Mazda3" target="CreationalPatterns.Builder.CarBuilder">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9611111111111111" x="321.0" y="350.0" />
+  <SelectedNodes>
+    <node>CreationalPatterns.Builder.CarBuilder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
