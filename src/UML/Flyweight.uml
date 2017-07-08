@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>StructuralPatterns.Flyweight</OriginalElement>
+  <nodes>
+    <node x="315.0" y="101.0">StructuralPatterns.Flyweight.Circle</node>
+    <node x="228.69642857142856" y="0.0">StructuralPatterns.Flyweight.Shape</node>
+    <node x="0.0" y="112.5">StructuralPatterns.Flyweight.Point</node>
+    <node x="185.125" y="225.0">StructuralPatterns.Flyweight.ShapeFactory</node>
+    <node x="219.125" y="349.0">StructuralPatterns.Flyweight.FlyweightApp</node>
+    <node x="183.0" y="101.0">StructuralPatterns.Flyweight.Square</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StructuralPatterns.Flyweight.ShapeFactory" target="StructuralPatterns.Flyweight.Point">
+      <point x="-88.875" y="-37.0" />
+      <point x="214.75" y="200.0" />
+      <point x="81.5" y="200.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="StructuralPatterns.Flyweight.Circle" target="StructuralPatterns.Flyweight.Shape">
+      <point x="0.0" y="-37.0" />
+      <point x="370.0" y="81.0" />
+      <point x="330.57142857142856" y="81.0" />
+      <point x="20.375" y="25.5" />
+    </edge>
+    <edge source="StructuralPatterns.Flyweight.Square" target="StructuralPatterns.Flyweight.Shape">
+      <point x="0.0" y="-37.0" />
+      <point x="239.0" y="81.0" />
+      <point x="289.82142857142856" y="81.0" />
+      <point x="-20.375" y="25.5" />
+    </edge>
+    <edge source="StructuralPatterns.Flyweight.FlyweightApp" target="StructuralPatterns.Flyweight.ShapeFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="StructuralPatterns.Flyweight.Point" target="StructuralPatterns.Flyweight.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="81.5" y="71.0" />
+      <point x="249.07142857142856" y="71.0" />
+      <point x="-61.125" y="25.5" />
+    </edge>
+    <edge source="StructuralPatterns.Flyweight.ShapeFactory" target="StructuralPatterns.Flyweight.Square">
+      <point x="-29.625" y="-37.0" />
+      <point x="274.0" y="200.0" />
+      <point x="239.0" y="200.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="StructuralPatterns.Flyweight.ShapeFactory" target="StructuralPatterns.Flyweight.Shape">
+      <point x="88.875" y="-37.0" />
+      <point x="392.5" y="200.0" />
+      <point x="435.5" y="200.0" />
+      <point x="435.5" y="71.0" />
+      <point x="371.32142857142856" y="71.0" />
+      <point x="61.125" y="25.5" />
+    </edge>
+    <edge source="StructuralPatterns.Flyweight.ShapeFactory" target="StructuralPatterns.Flyweight.Circle">
+      <point x="29.625" y="-37.0" />
+      <point x="333.25" y="200.0" />
+      <point x="370.0" y="200.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="200.0" />
+  <SelectedNodes>
+    <node>StructuralPatterns.Flyweight.FlyweightApp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

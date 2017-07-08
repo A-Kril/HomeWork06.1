@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BehavioralPatterns.Interpreter</OriginalElement>
+  <nodes>
+    <node x="412.0" y="101.0">BehavioralPatterns.Interpreter.PlusExspression</node>
+    <node x="203.0" y="270.0">BehavioralPatterns.Interpreter.Context</node>
+    <node x="238.5" y="0.0">BehavioralPatterns.Interpreter.Expression</node>
+    <node x="223.5" y="371.0">BehavioralPatterns.Interpreter.InterpreterApp</node>
+    <node x="224.0" y="112.0">BehavioralPatterns.Interpreter.NumberExpression</node>
+    <node x="0.0" y="101.0">BehavioralPatterns.Interpreter.MinusExspression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BehavioralPatterns.Interpreter.Context" target="BehavioralPatterns.Interpreter.PlusExspression">
+      <point x="70.0" y="-25.5" />
+      <point x="378.0" y="245.0" />
+      <point x="514.0" y="245.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Interpreter.PlusExspression" target="BehavioralPatterns.Interpreter.Expression">
+      <point x="51.0" y="-59.5" />
+      <point x="565.0" y="71.0" />
+      <point x="363.6" y="71.0" />
+      <point x="55.60000000000002" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Interpreter.Context" target="BehavioralPatterns.Interpreter.NumberExpression">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Interpreter.Context" target="BehavioralPatterns.Interpreter.MinusExspression">
+      <point x="-70.0" y="-25.5" />
+      <point x="238.0" y="245.0" />
+      <point x="102.0" y="245.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Interpreter.InterpreterApp" target="BehavioralPatterns.Interpreter.Context">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Interpreter.NumberExpression" target="BehavioralPatterns.Interpreter.Expression">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Interpreter.MinusExspression" target="BehavioralPatterns.Interpreter.Expression">
+      <point x="-51.0" y="-59.5" />
+      <point x="51.0" y="71.0" />
+      <point x="252.4" y="71.0" />
+      <point x="-55.599999999999994" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="308.0" y="211.0" />
+  <SelectedNodes>
+    <node>BehavioralPatterns.Interpreter.InterpreterApp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BehavioralPatterns.Memento</OriginalElement>
+  <nodes>
+    <node x="0.0" y="146.0">BehavioralPatterns.Memento.Game</node>
+    <node x="121.5" y="358.0">BehavioralPatterns.Memento.MementoGame</node>
+    <node x="247.0" y="201.5">BehavioralPatterns.Memento.File</node>
+    <node x="108.5" y="0.0">BehavioralPatterns.Memento.Save</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BehavioralPatterns.Memento.MementoGame" target="BehavioralPatterns.Memento.Game">
+      <point x="-42.25" y="-25.5" />
+      <point x="163.75" y="333.0" />
+      <point x="113.5" y="333.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="BehavioralPatterns.Memento.Game" target="BehavioralPatterns.Memento.Save">
+      <point x="0.0" y="-81.0" />
+      <point x="113.5" y="121.0" />
+      <point x="157.25" y="121.0" />
+      <point x="-48.75" y="48.0" />
+    </edge>
+    <edge source="BehavioralPatterns.Memento.File" target="BehavioralPatterns.Memento.Save">
+      <point x="0.0" y="-25.5" />
+      <point x="298.5" y="121.0" />
+      <point x="254.75" y="121.0" />
+      <point x="48.75" y="48.0" />
+    </edge>
+    <edge source="BehavioralPatterns.Memento.MementoGame" target="BehavioralPatterns.Memento.File">
+      <point x="42.25" y="-25.5" />
+      <point x="248.25" y="333.0" />
+      <point x="298.5" y="333.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="175.0" y="204.5" />
+  <SelectedNodes>
+    <node>BehavioralPatterns.Memento.MementoGame</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

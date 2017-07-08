@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>StructuralPatterns.Facade</OriginalElement>
+  <nodes>
+    <node x="248.0" y="178.0">StructuralPatterns.Facade.Computer</node>
+    <node x="248.0" y="0.0">StructuralPatterns.Facade.DVDRom</node>
+    <node x="262.5" y="346.0">StructuralPatterns.Facade.FacadeApp</node>
+    <node x="0.0" y="33.5">StructuralPatterns.Facade.HDD</node>
+    <node x="466.0" y="22.5">StructuralPatterns.Facade.Power</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StructuralPatterns.Facade.Computer" target="StructuralPatterns.Facade.HDD">
+      <point x="-82.5" y="-59.0" />
+      <point x="264.5" y="158.0" />
+      <point x="57.0" y="158.0" />
+      <point x="-57.0" y="25.5" />
+    </edge>
+    <edge source="StructuralPatterns.Facade.Computer" target="StructuralPatterns.Facade.DVDRom">
+      <point x="16.5" y="-59.0" />
+      <point x="363.5" y="138.0" />
+      <point x="396.5" y="138.0" />
+      <point x="49.5" y="59.0" />
+    </edge>
+    <edge source="StructuralPatterns.Facade.Computer" target="StructuralPatterns.Facade.Power">
+      <point x="82.5" y="-59.0" />
+      <point x="429.5" y="158.0" />
+      <point x="568.75" y="158.0" />
+      <point x="34.25" y="36.5" />
+    </edge>
+    <edge source="StructuralPatterns.Facade.FacadeApp" target="StructuralPatterns.Facade.Computer">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="301.5" y="198.5" />
+  <SelectedNodes>
+    <node>StructuralPatterns.Facade.FacadeApp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
