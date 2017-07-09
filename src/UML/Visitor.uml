@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BehavioralPatterns.Visitor</OriginalElement>
+  <nodes>
+    <node x="280.0" y="288.0">BehavioralPatterns.Visitor.Mechanic</node>
+    <node x="824.0694444444445" y="121.0">BehavioralPatterns.Visitor.WheelElement</node>
+    <node x="157.43402777777783" y="111.0">BehavioralPatterns.Visitor.User</node>
+    <node x="847.1701388888889" y="298.0">BehavioralPatterns.Visitor.CarElement</node>
+    <node x="462.06944444444446" y="144.0">BehavioralPatterns.Visitor.EngineElement</node>
+    <node x="643.0694444444445" y="144.0">BehavioralPatterns.Visitor.BodyElement</node>
+    <node x="367.56944444444446" y="455.0">BehavioralPatterns.Visitor.VisitorApp</node>
+    <node x="927.1840277777778" y="0.0">BehavioralPatterns.Visitor.Element</node>
+    <node x="0.0" y="288.0">BehavioralPatterns.Visitor.BadBuyer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BehavioralPatterns.Visitor.EngineElement" target="BehavioralPatterns.Visitor.Element">
+      <point x="0.0" y="-25.5" />
+      <point x="542.5694444444445" y="71.0" />
+      <point x="940.6006944444445" y="71.0" />
+      <point x="-67.08333333333337" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.VisitorApp" target="BehavioralPatterns.Visitor.Mechanic">
+      <point x="0.0" y="-25.5" />
+      <point x="452.06944444444446" y="430.0" />
+      <point x="410.0" y="430.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.CarElement" target="BehavioralPatterns.Visitor.BodyElement">
+      <point x="-52.75" y="-48.5" />
+      <point x="899.9201388888889" y="258.0" />
+      <point x="723.5694444444445" y="258.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.BodyElement" target="BehavioralPatterns.Visitor.Element">
+      <point x="0.0" y="-25.5" />
+      <point x="723.5694444444445" y="81.0" />
+      <point x="967.4340277777778" y="81.0" />
+      <point x="-40.25" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.VisitorApp" target="BehavioralPatterns.Visitor.BadBuyer">
+      <point x="-56.33333333333337" y="-25.5" />
+      <point x="395.7361111111111" y="430.0" />
+      <point x="130.0" y="430.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.Mechanic" target="BehavioralPatterns.Visitor.User">
+      <point x="0.0" y="-58.5" />
+      <point x="410.0" y="268.0" />
+      <point x="352.4340277777778" y="268.0" />
+      <point x="65.0" y="58.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.CarElement" target="BehavioralPatterns.Visitor.Element">
+      <point x="17.58333333333337" y="-48.5" />
+      <point x="970.2534722222223" y="248.0" />
+      <point x="1061.5694444444443" y="248.0" />
+      <point x="1061.5694444444443" y="91.0" />
+      <point x="1021.1006944444445" y="91.0" />
+      <point x="13.416666666666629" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.VisitorApp" target="BehavioralPatterns.Visitor.CarElement">
+      <point x="56.333333333333314" y="-25.5" />
+      <point x="508.40277777777777" y="430.0" />
+      <point x="952.6701388888889" y="430.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.CarElement" target="BehavioralPatterns.Visitor.WheelElement">
+      <point x="-17.58333333333337" y="-48.5" />
+      <point x="935.0868055555555" y="268.0" />
+      <point x="937.5694444444445" y="268.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.WheelElement" target="BehavioralPatterns.Visitor.Element">
+      <point x="0.0" y="-48.5" />
+      <point x="937.5694444444445" y="91.0" />
+      <point x="994.2673611111112" y="91.0" />
+      <point x="-13.416666666666629" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.CarElement" target="BehavioralPatterns.Visitor.EngineElement">
+      <point x="-87.91666666666663" y="-48.5" />
+      <point x="864.7534722222223" y="268.0" />
+      <point x="542.5694444444445" y="268.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.Visitor.BadBuyer" target="BehavioralPatterns.Visitor.User">
+      <point x="0.0" y="-58.5" />
+      <point x="130.0" y="268.0" />
+      <point x="222.43402777777783" y="268.0" />
+      <point x="-65.0" y="58.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8954372623574145" x="549.5" y="253.0" />
+  <SelectedNodes>
+    <node>BehavioralPatterns.Visitor.VisitorApp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

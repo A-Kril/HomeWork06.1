@@ -50,17 +50,17 @@
       <point x="384.75" y="345.0" />
       <point x="31.25" y="25.5" />
     </edge>
-    <edge source="BehavioralPatterns.State.Radio" target="BehavioralPatterns.State.EvropaPlus">
-      <point x="76.875" y="-59.0" />
-      <point x="313.8671875" y="177.0" />
-      <point x="322.25" y="177.0" />
-      <point x="-31.25" y="25.5" />
-    </edge>
     <edge source="BehavioralPatterns.State.RadioRelax" target="BehavioralPatterns.State.Station">
       <point x="0.0" y="-25.5" />
       <point x="62.5" y="76.0" />
       <point x="201.734375" y="76.0" />
       <point x="-46.875" y="25.5" />
+    </edge>
+    <edge source="BehavioralPatterns.State.Radio" target="BehavioralPatterns.State.EvropaPlus">
+      <point x="76.875" y="-59.0" />
+      <point x="313.8671875" y="177.0" />
+      <point x="322.25" y="177.0" />
+      <point x="-31.25" y="25.5" />
     </edge>
     <edge source="BehavioralPatterns.State.EvropaPlus" target="BehavioralPatterns.State.Station">
       <point x="0.0" y="-25.5" />
@@ -70,15 +70,13 @@
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="208.0" y="210.5" />
-  <SelectedNodes>
-    <node>BehavioralPatterns.State.StateApp</node>
-  </SelectedNodes>
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
-    <Category>Constructors</Category>
-    <Category>Methods</Category>
-    <Category>Properties</Category>
     <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
